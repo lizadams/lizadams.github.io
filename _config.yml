@@ -93,11 +93,14 @@ exclude:
   - README.md
   - CNAME
 
+# Initializes a Markdown parser
+ markdown = Redcarpet::Markdown.new(renderer, extensions = {})
+
 # create a custom renderer that allows highlighting of code blocks
  class HTMLwithPygments < Redcarpet::Render::HTML
    def block_code(code, language)
        Pygments.highlight(code, lexer: language)
-         end
-         end
+   end
+ end
 
-         markdown = Redcarpet::Markdown.new(HTMLwithPygments, fenced_code_blocks: true)
+ markdown = Redcarpet::Markdown.new(HTMLwithPygments, fenced_code_blocks: true)
