@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Jekyll local build of github-pages"
+date:   2016-12-08
+categories: jekyll update
+---
+For changes to appear on lizadams.github.io takes some time.
+To test changes locally and viewing it on a local web page you can install and run jekyll locally.
+
+Followed the instructions on this link
+
+https://jekyllrb.com/docs/quickstart/
+
+{% highlight csh %}
+sudo gem install jekyll bundler
+{% endhighlight %}
+
+{% highlight csh %}
+jekyll new myblog
+{% endhighlight %}
+
+{% highlight csh %}
+cd myblog
+{% endhighlight %}
+
+{% highlight csh %}
+bundle exec jekyll serve
+{% endhighlight %}
+
+https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
