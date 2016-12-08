@@ -4,12 +4,6 @@ title:  "Git Workflow"
 date:   2016-12-08
 categories: git update
 ---
-Testing out support for code highlight csh
-
-{% highlight csh %}
-git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
-{% endhighlight %}
-
 I added the Operational Guidance Document to the doc directory on my fork of the EPA CMAQ github site.
 
 You can see it here (still needs editing (tables aren't correctly drawn and images are not yet linked – I need to fix this and other markdown conversion issues.)):
@@ -23,9 +17,9 @@ I took the following steps:
 * to get a copy of EPA's codes on my personal online github site.
 
 * clone the repository from my personal online github site to get a copy of it on my local machine:
-<pre><code>
+{% highlight csh %}
     git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
-</code></pre>
+{% endhighlight %}
 * copied  the OGD markdown docs under the following directory:
 <pre><code>
     cd CCTM/docs/User_Manual/
