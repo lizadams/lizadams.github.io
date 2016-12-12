@@ -15,8 +15,12 @@ I took the following steps:
  https://help.github.com/articles/fork-a-repo/
 
 * to get a copy of EPA's codes on my personal online github site.
+My individual fork is:
+https://github.com/lizadams/CMAQ/tree/5.2Beta
 
-* clone the repository from my personal online github site to get a copy of it on my local machine:
+* From your individual fork, clone a working copy to your desktop or to killdevil.  Make the edits and changes locally.
+Commit them locally, then push them up to your individual forked project.
+to clone the repository from my personal online github site to get a copy of it on my local machine:
 {% highlight csh %}
     git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
 {% endhighlight %}
@@ -68,7 +72,8 @@ Here are the instructions that I followed in my local repository
 <pre><code>
     git push
 </code></pre>
-* Once the documentation is at the point where it is ready for the EPA to review,
+* Once everything looks good on our individual github forked project, we would each need to do a pull request to the CMASCenter/EPA-CMAQ project. 
+Once the documentation is at the point where it is ready for the EPA to review,
 we need to do pull request and ask them to review and then incorporate the changes into their github site.
 
 
