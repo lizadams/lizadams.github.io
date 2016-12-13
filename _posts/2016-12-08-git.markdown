@@ -11,6 +11,7 @@ You can see it here: (links to sections still needs to be fixed)
 [https://github.com/lizadams/CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_index.md](https://github.com/lizadams/CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_index.md)
 
 or on the CMASCenter site:
+
 [https://github.com/CMASCenter/EPA-CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_index.md](https://github.com/CMASCenter/EPA-CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_index.md)
 
 I took the following steps:
