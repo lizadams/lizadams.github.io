@@ -11,10 +11,11 @@ https://github.com/lizadams/CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_ind
 
 I took the following steps:
 
-* Fork the EPA repository using the following instructions
+* Fork the CMAS-CENTER repository (https://github.com/CMASCenter/EPA-CMAQ)  using the following instructions
  https://help.github.com/articles/fork-a-repo/
 
-* to get a copy of EPA's codes on my personal online github site.
+
+* this places a copy of the CMASCenter code on my personal online github site.
 My individual fork is:
 https://github.com/lizadams/CMAQ/tree/5.2Beta
 
@@ -22,7 +23,8 @@ https://github.com/lizadams/CMAQ/tree/5.2Beta
 Commit them locally, then push them up to your individual forked project.
 to clone the repository from my personal online github site to get a copy of it on my local machine:
 {% highlight csh %}
-    git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
+using ssh    git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
+using https  git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
 {% endhighlight %}
 * copied  the OGD markdown docs under the following directory:
 <pre><code>
