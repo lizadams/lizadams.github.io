@@ -108,7 +108,7 @@ Once the documentation is at the point where it is ready for the EPA to review,
 we need to do pull request and ask them to review and then incorporate the changes into their github site.
 
 
-<p>I also found a site that has tips on the Markdown syntax: 
+* I also found a site that has tips on the Markdown syntax: 
 
 [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
