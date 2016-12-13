@@ -17,12 +17,12 @@ I took the following steps:
 
 * Using the following instructions
 
-https://help.github.com/articles/fork-a-repo/
+[https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
 * This places a copy of the CMASCenter code on my personal online github site.
 My individual fork is now:
 
-https://github.com/lizadams/CMAQ/tree/5.2Beta
+[https://github.com/lizadams/CMAQ/tree/5.2Beta](https://github.com/lizadams/CMAQ/tree/5.2Beta)
 
 * From your individual fork, clone a working copy to your desktop or to killdevil.  Make the edits and changes locally.
 Commit them locally, then push them up to your individual forked project.
@@ -45,7 +45,7 @@ git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
 
 * The Atom.io editor allows you to view a preview of what the markdown document will look like in github. Download installer from:
 
-https://atom.io
+[https://atom.io](https://atom.io)
 
 * Load a the project directory, select a file *.md to edit, then use the command control+shift+m, and you will see the preview markdown screen of the file.
  
@@ -55,7 +55,7 @@ https://atom.io
 </code></pre>
 
 I decided to synch to the upstream branch (EPA's github site) to be sure I had all/any changes that they have made.
-http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
+[http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository]
 
 Here are the instructions that I followed in my local repository
 
