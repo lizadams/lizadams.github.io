@@ -13,7 +13,7 @@ I took the following steps:
 
 * Fork the CMAS-CENTER repository 
 
-[a link](https://github.com/CMASCenter/EPA-CMAQ)
+[https://github.com/CMASCenter/EPA-CMAQ](https://github.com/CMASCenter/EPA-CMAQ)
 
 * Using the following instructions
 
