@@ -11,25 +11,44 @@ https://github.com/lizadams/CMAQ/blob/5.2Beta/CCTM/docs/User_Manual/CMAQ_OGD_ind
 
 I took the following steps:
 
-* Fork the CMAS-CENTER repository (https://github.com/CMASCenter/EPA-CMAQ)  using the following instructions
- https://help.github.com/articles/fork-a-repo/
+* Fork the CMAS-CENTER repository 
 
+https://github.com/CMASCenter/EPA-CMAQ
 
-* this places a copy of the CMASCenter code on my personal online github site.
-My individual fork is:
+* Using the following instructions
+
+https://help.github.com/articles/fork-a-repo/
+
+* This places a copy of the CMASCenter code on my personal online github site.
+My individual fork is now:
+
 https://github.com/lizadams/CMAQ/tree/5.2Beta
 
 * From your individual fork, clone a working copy to your desktop or to killdevil.  Make the edits and changes locally.
 Commit them locally, then push them up to your individual forked project.
 to clone the repository from my personal online github site to get a copy of it on my local machine:
-{% highlight csh %}
-using ssh    git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
-using https  git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
-{% endhighlight %}
-* copied  the OGD markdown docs under the following directory:
+
+
+*using either ssh     (this didn't work for Jo Ellen)
+<pre><code>
+git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
+</pre></code>
+*or using https  
+<pre><code>
+git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
+</pre></code>
+
+* edit the markdown docs under the following directory:
 <pre><code>
     cd CCTM/docs/User_Manual/
 </code></pre>
+
+* The Atom.io editor allows you to view a preview of what the markdown document will look like in github. Download installer from:
+
+https://atom.io
+
+* Load a the project directory, select a file *.md to edit, then use the command control+shift+m, and you will see the preview markdown screen of the file.
+ 
 * To see what had changed used the command:
 <pre><code>
     git status
