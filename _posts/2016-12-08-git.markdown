@@ -72,7 +72,7 @@ git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
 <pre><code>
     git push
 </code></pre>
-I decided to synch to the upstream branch (EPA's github site) to be sure I had all/any changes that they have made.
+The following steps are optional, if you want to to synch to the upstream branch (EPA's github site) to be sure you had all/any changes that they have made.
 [http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository]
 
 Here are the instructions that I followed in my local repository
