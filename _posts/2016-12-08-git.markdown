@@ -79,6 +79,10 @@ Here are the instructions that I followed in my local repository
 </code></pre>
 * be sure that we are on the 5.2Beta Branch
 <pre><code>
+    git branches
+</code></pre>
+* if you aren't on the correct branch you can switch to the 5.2Beta branch using the command:
+<pre><code>
     git checkout 5.2Beta
 </code></pre>
 
