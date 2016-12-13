@@ -29,14 +29,15 @@ Commit them locally, then push them up to your individual forked project.
 to clone the repository from my personal online github site to get a copy of it on my local machine:
 
 
-*using either ssh     (this didn't work for Jo Ellen)
+* using either ssh     (this didn't work for Jo Ellen)
 <pre><code>
 git clone -b 5.2Beta git@github.com:lizadams/CMAQ.git CMAQ_v5.2Beta
-</pre></code>
-*or using https  
+</code></pre>
+
+* or using https  
 <pre><code>
 git clone -b 5.2Beta https://github.com/lizadams/CMAQ.git CMAQ_v5.2Beta
-</pre></code>
+</code></pre>
 
 * edit the markdown docs under the following directory:
 <pre><code>
